@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+header section {
+  margin: auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#titleBar {
+  display: flex;
+  width: 340px;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: ‘Wire One’, sans-serif;
+  color: #aaa;
+}
+
+header ul:first-of-type {
+  margin-right: 10px;
+}
+
+#iconLists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.listIcons {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.repeatingBorder {
+  margin: auto;
+  margin-top: 30px;
+  width: 900px;
+  height: 25px;
+  background-image: url("../img/hr-img.png");
+}
+
+#recipeHeading {
+  width: 900px;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#postedDate {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+main {
+  width: 900px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+#postedDate {
+  color: grey;
+}
+
+#printer {
+  display: flex;
+  font-family:Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+article {
+  width: 900 px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+article p {
+  margin-top: 30px;
+  text-indent: 10px;
+}
+
+#checklist {
+  display: flex;
+  justify-content: space-around;
+  width: 900 px;
+  margin-top: 30px;
+  height: 300px;
+  background-image: url(../img/list-bg.png);
+  line-height: 35px;
+}
+
+form {
+  width: 325px;
+  margin: auto;
+  font-family: ‘Patrick Hand’, cursive;
+  font-size: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+}
+
+#bottomLine {
+  border-bottom: 1px solid lightgrey;
+  margin: auto;
+  width: 900px;
+}
+
+#lineSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lineSection img {
+  position: absolute;
+  padding: 10px;
+  background: white;
+}
+
+#copyright {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: lightgrey;
+}
+
+#footer-section {
+  margin: auto;
+  width: 900px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#vanessa {
+  border-radius: 50%;
+  align-self: start;
+}
+
+#bio {
+  width: 650px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#innerbio {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.7rem;
+}
+
+#vanessabio {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  color: #777
+}
+
+#sharelink {
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
