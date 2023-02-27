@@ -4,6 +4,7 @@
 
 header section {
   margin: auto;
+  margin-top: 20px;
   width: 900px;
   display: flex;
   justify-content: space-between;
@@ -46,7 +47,7 @@ header ul:first-of-type {
   margin: auto;
   margin-top: 30px;
   width: 900px;
-  height: 25px;
+  height: 12px;
   background-image: url("../img/hr-img.png");
 }
 
